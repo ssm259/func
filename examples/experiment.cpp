@@ -66,7 +66,6 @@ int main(int argc, char* argv[])
     //"UniformArmadilloPrecomputedInterpolationTable<5>",
     //"UniformArmadilloPrecomputedInterpolationTable<6>",
     //"UniformArmadilloPrecomputedInterpolationTable<7>",
-    //"UniformCubicHermiteTable",
     "UniformCubicPrecomputedInterpolationTable",
     //"UniformCubicTaylorTable",
     "UniformLinearInterpolationTable",
@@ -74,8 +73,10 @@ int main(int argc, char* argv[])
     //"UniformLinearTaylorTable",
     //"UniformQuadraticPrecomputedInterpolationTable",
     //"UniformQuadraticTaylorTable",
-    "NonUniformLinearInterpolationTable",
-    "NonUniformCubicPrecomputedInterpolationTable"
+    "NonUniformLinearInterpolationTable<4>",
+    "NonUniformCubicPrecomputedInterpolationTable<4>",
+    "NonUniformPseudoLinearInterpolationTable<4>",
+    "NonUniformPseudoCubicPrecomputedInterpolationTable<4>",
   };
 
   std::vector<std::string> padeNames {
